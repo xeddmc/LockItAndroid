@@ -61,33 +61,8 @@ public class RegisterActivity extends AppCompatActivity {
                     mPasswordet.setError("Please Enter A Password At Least 6 Digits");
                     mPasswordet.setFocusable(true);
                 } else {
-                    registerUser(email, password);
+                    System.out.println("HI");
                 }
-            }
-        });
-    }
-
-    private void registerUser(String email, String password) {
-        progressDialog.show();
-        mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            // Sign in success, update UI with the signed-in user's information
-                            progressDialog.dismiss();
-                            FirebaseUser user = mAuth.getCurrentUser();
-                            Toast.makeText(RegisterActivity.this, "Registered", Toast.LENGTH_SHORT).show();
-                        } else {
-                            // If sign in fails, display a message to the user.
-                            progressDialog.dismiss();
-                            Toast.makeText(RegisterActivity.this, "Authentication failed.", Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                }).addOnFailureListener(new OnFailureListener() {
-            @Override
-            public void onFailure(@NonNull Exception e) {
-                progressDialog.dismiss();
-                Toast.makeText(RegisterActivity.this, ""+e.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
     }
