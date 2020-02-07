@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="backgroundColor">#000000</color>
+    <color name="colorAccent">#F1C40F</color>
+    <color name="backgroundGray">#303030</color>
+    <color name="backgroundLightGray">#606060</color>
+    <color name="lockitYellow">#F1C40F</color>
+    <color name="lockitWhite">#FFFFFF</color>
+</resources>

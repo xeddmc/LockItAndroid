@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "524393309473",
+    "firebase_url": "https://fir-demo-2c741.firebaseio.com",
+    "project_id": "fir-demo-2c741",
+    "storage_bucket": "fir-demo-2c741.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524393309473:android:5727bf5d741c5982720a60",
+        "android_client_info": {
+          "package_name": "com.example.lockitpasswordsaver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524393309473-kkjpe8918vd9i6bcmchtn5d10qat7ogp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lockitpasswordsaver",
+            "certificate_hash": "8a71e11814856bc496791c5bc7d8fd078345aedd"
+          }
+        },
+        {
+          "client_id": "524393309473-vpp8uo7p8a4mn6qgli5fnprnhsbu8squ.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_CAKhd2Ch37f8KVOfrqqDow-kVg4Z4SA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524393309473-vpp8uo7p8a4mn6qgli5fnprnhsbu8squ.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "524393309473-q2t36u8kqnvl04th6rrd1fcvgflhdc31.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Jorge-Zapata.LockItDataSaver"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
